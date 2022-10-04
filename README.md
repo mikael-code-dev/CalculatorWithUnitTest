@@ -1,6 +1,6 @@
 # Testing Calculator
 
-Your assignment for this week is to testthe previously createdcalculator. You shall also overloadyour addition(+) and subtract(-) method with versions that takesa array as inputparameter.
+Your assignment for this week is to test the previously createdcalculator. You shall also overloadyour addition(+) and subtract(-) method with versions that takesa array as inputparameter.
 
 
 ## Approval demands:
