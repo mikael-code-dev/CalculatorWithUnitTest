@@ -42,21 +42,7 @@ namespace CalculatorWithUnitTest
 
         public static double Multiply(double num1, double num2)
         {
-            double sum;
-
-            try
-            {
-                sum = num1 * num2;
-            }
-            catch (OverflowException)
-            {
-
-                throw new Exception("CAN'T DO THAT MATE!");
-            }
-            
-            
-            return sum;
-            //return num1 * num2;
+            return num1 * num2;
         }
 
         public static decimal? Division(decimal num1, decimal num2)
