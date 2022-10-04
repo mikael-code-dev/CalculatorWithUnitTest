@@ -1,13 +1,13 @@
 # Testing Calculator
 
-Your assignment for this week is to test the previously createdcalculator. You shall also overloadyour addition(+) and subtract(-) method with versions that takesa array as inputparameter.
+Your assignment for this week is to test the previously created calculator. You shall also overload your addition(+) and subtract(-) method with versions that takes an array as inputparameter.
 
 
 ## Approval demands:
 
-* xUnit test the divisionmethod for dividing with Zero(No exception crash allowed)
+* xUnit test the division method for dividing with Zero(No exception crash allowed)
 * Each mathematical operation should be testable by xUnit.
-* Application need tohave a Overloaded method for Addition & Subtract that accepts a array asinputparameter.
+* Application need to have an Overloaded method for Addition & Subtract that accepts an array as inputparameter.
 
 
 ## Submission:
