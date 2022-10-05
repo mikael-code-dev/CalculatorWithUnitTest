@@ -34,13 +34,16 @@
             Assert.IsType<decimal>(result);
         }
 
+        [Fact]
         public void DivisionWithZeroASDenominator()
         {
-            Assert.Throws<DivideByZeroException>(() =>
-            {
-                var result = MathFunctions.Division(10, 0);
-                Assert.IsType<decimal>(result);
-            });
+            //Assert.Throws<DivideByZeroException>(() =>
+            //{
+            //    var result = MathFunctions.Division(10, 0);
+            //    //Assert.IsType<decimal>(result);
+            //});
+
+            Assert.IsNotType<decimal>(MathFunctions.Division(10, 0));
         }
     }
 }
